@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.tubroom/tubroom",
+  "title": "Tubroom",
+  "description": "Hotel rooms with their own jacuzzi or hot tub, room by room, in the US, Canada and the UK.",
+  "version": "1.0.1",
+  "websiteUrl": "https://tubroom.com/mcp-server/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tubroom.com/mcp"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/mikelovatt/tubroom-mcp",
+    "source": "github"
+  }
+}
