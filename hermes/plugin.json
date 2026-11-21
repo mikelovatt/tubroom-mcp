@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tubroom",
+  "version": "1.0.2",
+  "description": "Hotel rooms with their own jacuzzi, whirlpool or hot tub inside the room, in the US, Canada and the UK: the exact room type to book, its source and check date.",
+  "author": {
+    "name": "Tubroom",
+    "url": "https://tubroom.com"
+  },
+  "homepage": "https://tubroom.com/mcp-server/?utm_source=hermes-catalog",
+  "repository": "https://github.com/mikelovatt/tubroom-mcp",
+  "license": "MIT",
+  "keywords": ["hotels", "travel", "jacuzzi", "hot-tub", "mcp"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "tubroom": { "trust": "untrusted" }
+      }
+    }
+  }
+}

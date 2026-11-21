@@ -1,6 +1,6 @@
 {
   "name": "tubroom",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Hotel rooms with their own jacuzzi, whirlpool or hot tub inside the room, in the US, Canada and the UK: the exact room to book, its source and check date.",
   "mcpServers": {
     "tubroom": {
